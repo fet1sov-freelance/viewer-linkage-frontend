@@ -1,14 +1,18 @@
 export const common = {
     ru: {
-      "common.loading": "Загрузка"
+        "common.error": "Ошибка",
+        "common.loading": "Загрузка"
     },
     en: {
-      "common.loading": "Loading"
+        "common.error": "Error",
+        "common.loading": "Loading"
     },
     es: {
-      "common.loading": "Carga"
+        "common.error": "Error",
+        "common.loading": "Carga"
     },
     ja: {
-      "common.loading": "積み込み"
+        "common.error": "エラー",
+        "common.loading": "積み込み"
     }
   };
