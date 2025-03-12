@@ -55,8 +55,8 @@ const IndexComponent = () => {
 
       if (error) {
         toast({
-          title: "Ошибка",
-          description: "Не удалось загрузить трансляции",
+          title: t("common.error"),
+          description: t("streams.error.load"),
           variant: "destructive",
         });
         throw error;

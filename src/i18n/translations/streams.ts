@@ -51,7 +51,10 @@ export const streams = {
     "stream.startStream": "Начать трансляцию",
     "stream.stopStream": "Остановить трансляцию",
     "stream.streamTitle": "Название трансляции",
-    "stream.enterTitle": "Введите название трансляции"
+    "stream.enterTitle": "Введите название трансляции",
+
+    "streams.no_active": "Нет активных трансляций",
+    "streams.error.load": "Не удалось прогрузить список трансляций"
   },
   en: {
     "streams.popular": "Popular Streams",
@@ -104,7 +107,10 @@ export const streams = {
     "stream.startStream": "Start Stream",
     "stream.stopStream": "Stop Stream",
     "stream.streamTitle": "Stream Title",
-    "stream.enterTitle": "Enter stream title"
+    "stream.enterTitle": "Enter stream title",
+
+    "streams.no_active": "No active streams",
+    "streams.error.load": "Couldn't load the broadcast list"
   },
   es: {
     "streams.popular": "Transmisiones Populares",
@@ -157,7 +163,10 @@ export const streams = {
     "stream.startStream": "Iniciar Transmisión",
     "stream.stopStream": "Detener Transmisión",
     "stream.streamTitle": "Título de la Transmisión",
-    "stream.enterTitle": "Ingrese el título de la transmisión"
+    "stream.enterTitle": "Ingrese el título de la transmisión",
+
+    "streams.no_active": "No hay transmisiones activas",
+    "streams.error.load": "No se pudo cargar la lista de transmisión"
   },
   ja: {
     "streams.popular": "人気の配信",
@@ -210,6 +219,9 @@ export const streams = {
     "stream.startStream": "配信開始",
     "stream.stopStream": "配信停止",
     "stream.streamTitle": "配信タイトル",
-    "stream.enterTitle": "配信タイトルを入力"
+    "stream.enterTitle": "配信タイトルを入力",
+
+    "streams.no_active": "アクティブなストリームがない",
+    "streams.error.load": "送信リストを読み込めませんでした"
   }
 };
