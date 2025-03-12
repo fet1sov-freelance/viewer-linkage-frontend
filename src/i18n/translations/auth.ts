@@ -14,7 +14,9 @@ export const auth = {
     "auth.success": "Успешная авторизация",
     "auth.required": "Необходима авторизация",
     "auth.welcome": "Добро пожаловать",
-    "auth.goodbye": "До свидания"
+    "auth.goodbye": "До свидания",
+
+    "auth.loginButton": "Войти"
   },
   en: {
     "auth.login": "Login",
@@ -31,7 +33,9 @@ export const auth = {
     "auth.success": "Authentication Successful",
     "auth.required": "Authentication Required",
     "auth.welcome": "Welcome",
-    "auth.goodbye": "Goodbye"
+    "auth.goodbye": "Goodbye",
+
+    "auth.loginButton": "Login"
   },
   es: {
     "auth.login": "Iniciar sesión",
@@ -48,7 +52,9 @@ export const auth = {
     "auth.success": "Autenticación exitosa",
     "auth.required": "Autenticación requerida",
     "auth.welcome": "Bienvenido",
-    "auth.goodbye": "Hasta luego"
+    "auth.goodbye": "Hasta luego",
+
+    "auth.loginButton": "Entrar"
   },
   ja: {
     "auth.login": "ログイン",
@@ -65,6 +71,8 @@ export const auth = {
     "auth.success": "認証成功",
     "auth.required": "認証が必要です",
     "auth.welcome": "ようこそ",
-    "auth.goodbye": "さようなら"
+    "auth.goodbye": "さようなら",
+
+    "auth.loginButton": "入る"
   }
 };

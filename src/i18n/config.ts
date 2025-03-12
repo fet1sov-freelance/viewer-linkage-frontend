@@ -3,10 +3,12 @@ import { initReactI18next } from 'react-i18next';
 import { auth } from './translations/auth';
 import { navigation } from './translations/navigation';
 import { streams } from './translations/streams';
+import { common } from './translations/common';
 
 const resources = {
   ru: {
     translation: {
+      ...common.ru,
       ...auth.ru,
       ...navigation.ru,
       ...streams.ru,
@@ -14,6 +16,7 @@ const resources = {
   },
   en: {
     translation: {
+      ...common.en,
       ...auth.en,
       ...navigation.en,
       ...streams.en,
@@ -21,6 +24,7 @@ const resources = {
   },
   es: {
     translation: {
+      ...common.es,
       ...auth.es,
       ...navigation.es,
       ...streams.es,
@@ -28,6 +32,7 @@ const resources = {
   },
   ja: {
     translation: {
+      ...common.ja,
       ...auth.ja,
       ...navigation.ja,
       ...streams.ja,
